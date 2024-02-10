@@ -190,8 +190,6 @@ def pinned_num_method(board):
         Cell.assign_pinned_number(board)
         Cell.remove_already_present(board)
 
-        print("----------------------------")
-
         if old_board == board:
             break
 
