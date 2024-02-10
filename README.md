@@ -1,9 +1,29 @@
-# Sudoku-solver
+# Sudoku Solver
 
-This Python code implements a Sudoku solver based on the backtracking algorithm. The solution is recursive: it attempts to place valid numbers in empty positions, backtracking when necessary. 
+Welcome to the Sudoku solver! This project provides an efficient way to solve Sudoku puzzles using the backtracking algorithm and a technique for assigning and removing fixed numbers.
 
-However, it's crucial to note that using algorithms like this can exponentially slow down the resolution process relative to the size of the Sudoku. 
+## Key Features
 
-The code includes functions to print the grid, find empty positions, check the validity of assignments, and solve Sudoku. The main file runs the solver on a set of example grids, measuring the execution time and displaying the solutions.
+- **Backtracking Resolution:** The code implements a backtracking-based resolution algorithm that seeks a valid solution for the given Sudoku.
 
-This project is valuable for understanding the implementation of backtracking algorithms and solving logic puzzles like Sudoku.
+- **Fixed Number Assignment:** An advanced technique is used to assign fixed numbers to cells, reducing the number of attempts needed for resolution.
+
+## Usage Instructions
+
+1. Change the value of `sudoku_number` to select one of the provided Sudoku puzzles.
+2. Run the code to visualize the initial Sudoku.
+3. The program will apply the fixed number assignment technique to simplify the Sudoku.
+4. Next, the backtracking algorithm will be used to solve the Sudoku.
+5. The final result will be printed along with the time taken for resolution.
+
+## Puzzle Examples
+
+The project includes various Sudoku puzzles of different difficulties. You can experiment with these by changing the value of `sudoku_number`.
+
+## Contributions
+
+If you wish to contribute to the project, feel free to do so! We welcome improvements and new features.
+
+## Acknowledgments
+
+Thank you for using the Sudoku solver! We hope you enjoy solving puzzles, and this code proves useful to you.
